@@ -1,0 +1,28 @@
+{
+  "root": "./docs",
+  "title": "EDGƎ's Developer Guide",
+  "variables": {
+    "edge_git":     "https://github.com/3343/edge",
+    "edge_usr_git": "https://github.com/3343/edge_usr",
+    "edge_usr_pub": "http://usr.dial3343.org",
+    "edge_dev_git": "https://github.com/3343/edge_dev",
+    "edge_dev_pub": "http://dev.dial3343.org",
+    "edge_opt":     "https://bitbucket.com/3343/edge_opt",
+    "dial3343":     "http://dial3343.org"
+  },
+  "links": {
+      "sidebar": {
+          "Dispatcher": "http://dial3343.org/dispatcher",
+          "Issues (Developer Guide)": "https://github.com/3343/edge_dev/issues",
+          "Issues (EDGE)": "https://github.com/3343/edge/issues"
+      }
+  },
+  "plugins": [ "image-captions", "mathjax" ],
+  "pluginsConfig": {
+      "image-captions": {
+          "caption": "Fig. _BOOK_IMAGE_NUMBER_: _CAPTION_",
+          "align": "left",
+          "attributes": { "width": "85%" }
+      }
+  }
+}
