@@ -17,7 +17,7 @@
           "Issues (EDGE)": "https://github.com/3343/edge/issues"
       }
   },
-  "plugins": [ "image-captions", "mathjax" ],
+  "plugins": [ "image-captions", "katex" ],
   "pluginsConfig": {
       "image-captions": {
           "caption": "Fig. _BOOK_IMAGE_NUMBER_: _CAPTION_",
