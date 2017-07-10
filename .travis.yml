@@ -7,6 +7,11 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/43c875b57e67fd07bc8b
+
 install:
   # RVM
   - gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
