@@ -17,12 +17,17 @@
           "Issues (EDGE)": "https://github.com/3343/edge/issues"
       }
   },
-  "plugins": [ "image-captions", "katex" ],
+  "plugins": [ "image-captions",
+               "katex",
+               "ga" ],
   "pluginsConfig": {
       "image-captions": {
           "caption": "Fig. _BOOK_IMAGE_NUMBER_: _CAPTION_",
           "align": "left",
           "attributes": { "width": "85%" }
+      },
+      "ga": {
+        "token": "UA-100759100-4"
       }
   }
 }
