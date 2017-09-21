@@ -19,7 +19,8 @@
   },
   "plugins": [ "image-captions",
                "katex",
-               "ga" ],
+               "ga",
+               "meta-single" ],
   "pluginsConfig": {
       "image-captions": {
           "caption": "Fig. _BOOK_IMAGE_NUMBER_: _CAPTION_",
@@ -28,6 +29,10 @@
       },
       "ga": {
         "token": "UA-100759100-4"
+      },
+      "meta-single": {
+        "name": "google-site-verification",
+        "content": "Jxaoen_ZskqSD16iyV1t4OpcsjxSB01iUaN1OG9NgrU"
       }
   }
 }
