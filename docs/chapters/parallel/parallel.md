@@ -67,10 +67,7 @@ If $$n_\text{tgrps}$$ describes the number of time groups for the entire domain,
 
 ## Scheduling
 
-![Flow and dependencies of the ADER-DG scheme for the elastic wave equations with source terms.](gfx/flow_aderdg_src.svg)
-
-![Flow and dependencies of the ADER-DG scheme for the elastic wave equations with rupture physics. The indexing is shared with the source term implementation, resulting in a non-ascending numbering.](gfx/flow_aderdg_dr.svg)
-
+![Flow and dependencies of the ADER-DG scheme for the elastic wave equations with rupture physics and/or source terms.](gfx/flow_aderdg.svg)
 ## Meshes
 We support two type of meshes, regular meshes and unstructured meshes.
 Regular meshes are generated at runtime and based on regular domain decompositions into lines (1D), quads (2D) or hexes (3D).
